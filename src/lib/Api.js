@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:3006/api';
+const API_URL = 'http://54.93.232.92/api';
 
 async function httpGetSongs(orderSign, orderBy, page, perPage, where) {
     const params =  new URLSearchParams({
